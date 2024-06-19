@@ -1,0 +1,64 @@
+/* styles for buttons */
+button {
+  border: none;
+  background-color: #cdc6ff;
+  font-size: 24px;
+  color: #2D0147;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 0 2px #9501E4, 0 4px #2D0147;
+}
+  
+button:hover {
+  background-color: #9501E4;
+  color: #fff;
+  box-shadow: 0 2px #9b65b9, 0 4px #5e277d;
+}
+
+/* styles for percent (%) and sign buttons (+/-) */
+.percent-signs {
+  background-color: #9c9cea;
+}
+
+/* styles for operator buttons (+, -, X, /) */
+.operator {
+  background-color: #24e0ee;
+  box-shadow: 0 2px #0f959e, 0 4px #0f959e;
+  color:#2D0147;
+}
+
+.operator:hover {
+  background-color: #0000FF;
+  box-shadow: 0 2px #6565d7, 0 4px #0f959e;
+  color: #fff;
+}
+
+/* styles for clear buttons (C) */
+.clear {
+  background-color: #e26960;
+  box-shadow: 0 2px #c1382e, 0 4px #b23127;
+}
+
+.clear:hover {
+  background-color: #b31a0f;
+  box-shadow: 0 2px #e26960, 0 4px #3e0e0b;
+  color: #fff;
+}
+  
+
+
+/* styles for equals (=) buttons */
+.equals {
+  grid-column: 3 / 5;
+  background-color: #e26960;
+  color: #2D0147;
+  box-shadow: 0 2px #c1382e, 0 4px #b23127;
+}
+  
+.equals:hover {
+  background-color: #b31a0f;
+  box-shadow: 0 2px #e26960, 0 4px #3e0e0b;
+  color: #fff;
+}
